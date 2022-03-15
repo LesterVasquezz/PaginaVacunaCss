@@ -12,3 +12,5 @@ La práctica consiste en lo siguiente:
 - Estilos con CSS (Lo más acercado posible, pueden ser otras imágenes, íconos o colores)
 
 Pagina demo https://lestervasquezz.github.io/PaginaVacunaCss/
+
+pd: No es responsive :( 
