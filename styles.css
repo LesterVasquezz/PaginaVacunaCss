@@ -1,0 +1,387 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    height: 150px;
+}
+.menu{
+    position: absolute;
+    grid-template-columns: 30% 14% 14% 14% 14% 14%;
+    display: grid;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+}
+.texto2:hover, .texto2:active{
+    font-size: 200%;
+    font-weight: bold;
+    color: #000;
+
+}
+.contenedor{
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+}
+.contenedor .mitades{
+    display: flex;
+    position: relative;
+    height: 1000px;
+}
+.esquina{
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f4f5fa ;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
+.esquinaInfIzq{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent ;
+    border-right: 100px solid transparent;
+    border-left: 100px solid #f4f5fa;
+}
+
+.esquinaSupDer{
+    justify-self: flex-end;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent ;
+    border-right: 100px solid #f4f5fa;
+    border-left: 100px solid transparent;
+}
+.esquinaSupIzq{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent ;
+    border-right: 100px solid transparent;
+    border-left: 100px solid #f4f5fa;
+    position: absolute;
+
+}
+.esquinaInfDer{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent ;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f4f5fa;
+    display: flex;
+    position: absolute;
+    justify-self: flex-end;
+    align-self: flex-end;
+    
+}
+.centerDiv{
+    align-self: center;
+    flex-grow: 1;
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent ;
+    border-bottom: 150px solid transparent ;
+    border-right: 100px solid #f4f5fa;
+
+}
+.nurse{
+    width: 90%;
+    height: 90%;
+    align-self: flex-end;
+}
+.contenedor .float{
+    position: absolute;
+    top: 58%;
+    left: 7%;
+    width: 65%;
+    padding-left: 30px;
+    height: 150px;
+    background-color: #fff;
+    opacity: 0.9;
+    box-shadow: 0px 5px 30px #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 6px;
+
+ 
+}
+
+.float .miniBox{
+    display: flex;
+    flex-direction: column;
+    Overflow:hidden;
+}
+
+.encabezado{
+    font-family: 'PT Sans Caption', sans-serif; 
+    font-size: 60px; 
+    font-weight: bold;
+    color: #1f3e72;
+    
+}
+
+.texto{
+    font-family: 'PT Sans Caption', sans-serif; 
+    font-size: 25px; 
+    color: #6d7b93;
+    margin:0;
+    padding-top: 20px;
+}
+.texto2{ /* para el navbar*/
+    font-family: 'PT Sans Caption', sans-serif; 
+    font-size: 25px; 
+    color: #6d7b93;
+    margin:0;
+    padding-top: 20px;
+    text-align: center;
+}
+.textoBoton{
+    font-family: 'PT Sans Caption', sans-serif; 
+    font-size: 25px; 
+    color: #1f3e72;
+}
+.miniBox .textoInferior{
+    width: 100%;
+}
+.miniBox .textoInferior p {
+    text-align: center;
+    margin:0;
+    padding:0;
+    color: #1f3e72;
+}
+.dorados{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: #faf0cc;
+    box-shadow: 0px 5px 5px #faf0cc;
+}
+
+.iconAzul{
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+    
+}
+.float .miniBoxBoton{
+    display: flex;
+    flex-direction: column;
+    Overflow:hidden;
+    padding-top: 30px;
+    Overflow:hidden;
+}
+.botonMorado{
+    background-color: #2949c7; 
+    font-family: 'PT Sans Caption', sans-serif; 
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+  }
+.pieContainter{
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #fff;
+}
+.marcas{
+    width: 100%; 
+}
+.botonMorado:hover{
+    background-color: #0d173f;
+    box-shadow: 0px 5px 5px #0d173f;
+
+}
+
+.contenedor2{
+    position: relative;
+    display: grid;
+    grid-template-rows: 1;
+    height: 600px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+}
+.contenedor2 .why{
+    position: absolute;
+    top: -10%;
+    left: 7%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 300px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px;
+  }
+  .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+
+  .iconMed{
+    width: 50px;
+    height: 50px;
+    background-color: #e9f1fc;
+    border-radius: 5px;
+
+    
+}
+.cardHead{
+    font-family: 'PT Sans Caption', sans-serif;
+    margin:0;
+    padding:0;
+    color: #1f3e72;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.matadesColum{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    position: relative;
+
+}
+.nurse2{
+    width: 100%;
+}
+.menuDesplegable{
+    width: 90%;
+    box-shadow: 7px 13px 37px #e9f1fc;
+}
+
+.menuDesplegable input{
+    display: none;
+    
+}
+
+.titulo{
+    display: block;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    color: #1f3e72;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #6d7b93;
+}
+
+.titulo:hover{
+    background-color: #ccc;
+}
+
+.contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+.menuDesplegable input:checked ~ .contenido{
+    height: auto;
+    margin: 15px 0;
+    padding: 15px;
+}
+.galeria{
+    width: 60%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.cajas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    column-gap: 20px;
+    
+    
+}
+.detalles{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    place-items:  center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.botonMorado2{
+    background-color: #e9f1fc; 
+    font-family: 'PT Sans Caption', sans-serif; 
+    color: #2949c7;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+  }
+  .botonMorado2:hover{
+    background-color: #2949c7;
+    box-shadow: 0px 5px 5px #0d173f;
+    color: #fff;
+
+}
+footer{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    height: 350px;
+    background-color: #eef3ff;
+    place-items:  center;
+
+}
+.contenidoTemplate{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    width:90%;
+    height: 90%;
+    margin: 20px;
+    padding-top: 40px;
+
+}
+.derechos{
+    display:inline-flex;
+    
+    position: absolute;
+    width: 90%;
+    height: 50px;
+}
+
+.derechos .triangulo{
+    position: relative;
+    left: 60%;
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 100px solid #e2e9f9;
+}
