@@ -7,7 +7,7 @@ Como pueden ver es una página de vacunación y en estos momentos que se está p
 
 La práctica consiste en lo siguiente:
 
-- Planeación de campaña de vacunación (Un poco de mercadotecnia para llegar al sitio)
+- Planeación de campaña de vacunación (Un poco de mercadotecnia para llegar al sitio) [pdf](./publicidad/infografia.pdf)
 - Maquetación del sitio con HTML
 - Estilos con CSS (Lo más acercado posible, pueden ser otras imágenes, íconos o colores)
 
